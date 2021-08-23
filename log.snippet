@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>instanciate nlog</Title>
+			<Author>Thierry Bremard</Author>
+			<Description>Nlog init</Description>
+			<Shortcut>log</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp"
+				  Kind="type decl">
+                <![CDATA[private static Logger _log = LogManager.GetCurrentClassLogger();$end$]]>
+            </Code>
+			<Imports>
+				<Import>
+				  <Namespace>NLog</Namespace>
+				</Import>
+			</Imports>			
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
+
