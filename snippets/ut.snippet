@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Unit Test Method</Title>
+			<Author>Thierry Bremard</Author>
+			<Description>Unit Test Method</Description>
+			<Shortcut>ut</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp"
+				  Kind="type decl">
+                <![CDATA[[Test]
+        public void Method_WhenX_ThenY()
+        {
+			$end$
+        }]]>
+            </Code>
+			<Imports>
+				<Import>
+				  <Namespace>NUnit.Framework</Namespace>
+				</Import>
+			</Imports>			
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
+
