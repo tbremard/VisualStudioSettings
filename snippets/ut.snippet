@@ -11,11 +11,23 @@
             <Code Language="CSharp"
 				  Kind="type decl">
                 <![CDATA[[Test]
-        public void Method_WhenX_ThenY()
+        public void $Method$_WhenX_ThenY()
         {
 			$end$
+		    var ret = _sut.$Method$();
+			
+			string expected = "";
+			Assert.AreEqual(expected, ret);			
         }]]>
             </Code>
+		<Declarations>
+			<Literal>
+			  <ID>Method</ID>
+			  <ToolTip>Target method of SUT.</ToolTip>
+			  <Default>Method</Default>
+			</Literal>
+		  </Declarations>
+  
 			<Imports>
 				<Import>
 				  <Namespace>NUnit.Framework</Namespace>
