@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Test Class NUnit</Title>
+      <Shortcut>testc</Shortcut>
+      <Description>Test class for NUnit framework</Description>
+    <Author>Thierry Bremard</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+		  <Namespace>NUnit.Framework</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>sut</ID>
+          <ToolTip>Replace with the name of the test class</ToolTip>
+          <Default>MyTestClass</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[
+      public class $sut$Test
+      {
+        $sut$ _sut;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _sut = new $sut$();
+        }
+	  
+          $end$
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
