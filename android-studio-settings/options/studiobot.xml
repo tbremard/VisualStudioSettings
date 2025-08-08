@@ -1,0 +1,18 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="acceptedTermsVersion" value="3" />
+    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1750672572481">I'm getting the following error while building my project. The error is: 'R' is not a valid file-based resource name character: File-based resource names must contain only lowercase a-z, 0-9, or underscore
+```
+$ ./gradlew :app:packageDebugResources
+'R' is not a valid file-based resource name character: File-based resource names must contain only lowercase a-z, 0-9, or underscore
+```
+How do I fix this?</historyEntry>
+        <historyEntry timestamp="1750534153565">what are the different menu entries ?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>

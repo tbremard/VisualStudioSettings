@@ -1,0 +1,17 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="D:\Prog\AndroidStudioProjects\MyColor" value="true" />
+        <entry key="D:\Prog\XoLoc" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="D:\Prog" />
+      </list>
+    </option>
+  </component>
+</application>

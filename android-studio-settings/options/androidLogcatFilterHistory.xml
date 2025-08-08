@@ -1,0 +1,10 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="nonFavorites">
+      <list>
+        <option value="com.tbr.xolorz" />
+        <option value="package:mine " />
+      </list>
+    </option>
+  </component>
+</application>
