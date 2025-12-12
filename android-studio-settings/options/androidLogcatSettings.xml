@@ -3,6 +3,7 @@
     <option name="ignoredTags">
       <set>
         <option value="EGL_emulation" />
+        <option value="HWUI" />
       </set>
     </option>
   </component>

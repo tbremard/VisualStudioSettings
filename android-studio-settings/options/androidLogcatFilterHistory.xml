@@ -2,8 +2,26 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
-        <option value="com.tbr.xolorz" />
         <option value="package:mine " />
+        <option value="package:mine ..." />
+        <option value="package:mine .." />
+        <option value="package:mine ." />
+        <option value="package:mine" />
+        <option value="package:mine ---" />
+        <option value="package:mine b" />
+        <option value="package:mine ----" />
+        <option value="package:mine LoginActivity" />
+        <option value="package:mine Sonar" />
+        <option value="package:mine PowerMode" />
+        <option value="package:mine onMapVisible" />
+        <option value="package:mine --" />
+        <option value="package:mine serviceReadyReceiver" />
+        <option value="package:mine Service ready" />
+        <option value="package:mine acc:" />
+        <option value="package:mine [SMD]" />
+        <option value="package:mine powermo" />
+        <option value="package:mine p" />
+        <option value="package:mine fallback_device_id" />
       </list>
     </option>
   </component>

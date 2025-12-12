@@ -1,6 +1,6 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="Back">
-    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="CIDR.Debugger.JumpToLine">
     <keyboard-shortcut first-keystroke="f9" />
@@ -18,7 +18,7 @@
   <action id="ForceStepInto" />
   <action id="ForceStepOver" />
   <action id="Forward">
-    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
@@ -34,7 +34,7 @@
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -66,12 +66,8 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
-  <action id="VcsShowNextChangeMarker">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="VcsShowPrevChangeMarker">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
@@ -81,4 +77,5 @@
   <action id="android.device.rotate.right" />
   <action id="android.emulator.xr.hand.tracking" />
   <action id="android.emulator.xr.recenter" />
+  <action id="android.streaming.xr.recenter" />
 </keymap>
